@@ -1,0 +1,14 @@
+git config --global user.name Prhuanetc
+git config --global user.email email.rhuan.etec@gmail.com
+
+----------------------------------------------------
+
+npx create-expo-app@latest EtecBus --template blank
+cd EtecBus
+npx expo install expo-location react-native-webview
+
+----------------------------------------------------
+Rodar:
+
+npx expo start --tunnel
+**escanear o QRcode
